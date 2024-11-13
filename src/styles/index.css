@@ -1,4 +1,44 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(194, 255, 217);
+}
 
+.semaforo {
+    display: flex;
+    width: auto;
+    padding: 3rem;
+    background-color: black;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.semaforo div {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 2rem;
+}
+
+.light-red{
+    background-color: red;
+}
+
+.light-yellow {
+    background-color: yellow;
+}
+.light-green {
+    background-color: green;
+}
+
+
+.brillo {
+    -webkit-box-shadow: 0px 0px 69px 1px rgba(242,203,8,1);
+    -moz-box-shadow: 0px 0px 69px 1px rgba(242,203,8,1);
+    box-shadow: 0px 0px 69px 1px rgba(242,203,8,1);
+}
 /* 
 
     You can write your own styles here...
