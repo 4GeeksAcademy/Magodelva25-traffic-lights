@@ -4,12 +4,6 @@ export const Semaforo = () => {
     
     
     const [color, setColor] = useState("red");
-    
-    const changeColor = () => {
-        if (color === "red") setColor("yellow");
-        else if (color === "yellow") setColor("green");
-        else if (color === "green") setColor("red");
-    };
 
     return (
 			<div className="wrapper">
